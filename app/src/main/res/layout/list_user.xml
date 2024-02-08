@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="10dp">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             android:layout_margin="20dp">
+
+             <TextView
+                 android:id="@+id/TVusername"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:textSize="16sp"
+                 android:text="Username"/>
+
+             <TextView
+                 android:id="@+id/TVemail"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:textSize="16sp"
+                 android:text="Email"/>
+
+             <TextView
+                 android:id="@+id/TVpassword"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:textSize="16sp"
+                 android:text="Password"/>
+
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 android:layout_margin="20dp">
+
+                 <Button
+                     android:id="@+id/btnHapus"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:text="Hapus"
+                     android:textStyle="bold"
+                     android:textSize="20sp"
+                     android:layout_marginTop="10dp"
+                     android:backgroundTint="@color/merah"/>
+                 <Button
+                     android:id="@+id/btnEdit"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:text="Edit"
+                     android:layout_marginTop="10dp"
+                     android:textStyle="bold"
+                     android:layout_marginLeft="20dp"
+                     android:textSize="20sp"
+                     android:backgroundTint="@color/hijau"/>
+             </LinearLayout>
+
+         </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

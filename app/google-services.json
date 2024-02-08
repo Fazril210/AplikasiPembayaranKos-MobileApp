@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "624721772423",
+    "firebase_url": "https://pembayaran-kos-7c84e-default-rtdb.firebaseio.com",
+    "project_id": "pembayaran-kos-7c84e",
+    "storage_bucket": "pembayaran-kos-7c84e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624721772423:android:f38ac5bb7d906770b79d22",
+        "android_client_info": {
+          "package_name": "com.example.aplikasipembayarankos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBt9fWZHaKAx_OszxT0jtQkkl8O591hdqA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

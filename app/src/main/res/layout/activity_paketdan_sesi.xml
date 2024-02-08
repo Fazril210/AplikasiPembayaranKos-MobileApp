@@ -1,0 +1,136 @@
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- ScrollView Pertama -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/backgroundscroll"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <RelativeLayout
+            android:id="@+id/group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/judul1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Group"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/judul1"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:text="Mythic \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tRp.480.000"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:id="@+id/tv1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="100dp"
+                android:text="🌑 1 jam Photoshoot \n\n🌑 All Foto + Editing (max 4-5 pengeditan) \n\n🌑 Maksimal 3-8 orang (Penambahan orang \t\t\t\tdikenakan \t\t\tbiaya 25K) \n\n🌑 2 Tema \n\n 🌑 Cetak 10R 4 Lembar"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+            android:id="@+id/judul2"
+                android:layout_below="@id/tv11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+                android:layout_marginTop="100dp"
+            android:text="Wisuda"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/judul2"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:text="Mythic \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tRp.480.000"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/tv22"
+                android:layout_below="@id/tv2"
+                android:text="🌑 1 jam Photoshoot \n\n🌑 All Foto + Editing (max 4-5 pengeditan) \n\n🌑 Maksimal 3-8 orang (Penambahan orang \t\t\t\tdikenakan \t\t\tbiaya 25K) \n\n🌑 2 Tema \n\n 🌑 Cetak 10R 4 Lembar"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+            android:id="@+id/judul3"
+                android:layout_below="@id/tv22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+                android:layout_marginTop="100dp"
+            android:text="Wisuda"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/judul3"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:text="Mythic \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tRp.480.000"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/tv3"
+                android:text="🌑 1 jam Photoshoot \n\n🌑 All Foto + Editing (max 4-5 pengeditan) \n\n🌑 Maksimal 3-8 orang (Penambahan orang \t\t\t\tdikenakan \t\t\tbiaya 25K) \n\n🌑 2 Tema \n\n 🌑 Cetak 10R 4 Lembar"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buat Pesanan"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/backgroundregister"
+        android:textSize="20sp"/>
+</LinearLayout>
